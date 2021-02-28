@@ -1,0 +1,35 @@
+#messenger-column{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    background:linear-gradient(180deg, rgb(177, 211, 255) 22%, rgba(138,209,241,1) 100%);
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    padding: 1%;
+}
+
+#messages-title h1{
+    font-size: 40px;
+}
+
+.user-square{
+    display: flex;
+    width: 70%;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+    
+}
+
+.user-square img{
+    margin-top: 30px;
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+}
